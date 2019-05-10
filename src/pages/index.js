@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'gatsby'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
@@ -8,13 +7,83 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi Oncoming</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{maxWidth: `300px`, marginBottom: `1.45rem`}}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+
+    <section>
+      <img className="banner" src="/img/FiveFifths-2019-L.png" alt=""/>
+
+      <h2>Five Fifths of Mary Poppins</h2>
+
+      <p>
+        <b>
+          Celebrate 26 Supercalifragilisticexpialidocious Years of Minnesota
+          Fringe!
+        </b> Join us as five adventurous companies donate their time and talent to
+        deliver their spoonful of sugar take on a timeless classic. Featuring
+        performances from: Shrieking Harpies, Sheep Theater, Oncoming
+        Productions, Javier Morillo, and ALL DAY.
+      </p>
+
+      <div className="show-info">
+        <div className="show-info-item">
+          <strong>Date:</strong> May 6, 2019
+        </div>
+
+        <div className="show-info-item">
+          <strong>Time:</strong> Doors open at 6:30pm / Show starts at 7:30pm
+        </div>
+
+        <div className="show-info-item">
+          <strong>Place:</strong> Park Square Theatre, 20 West 7th Place, Saint Paul, MN 55102
+        </div>
+
+        <div className="show-info-item">
+          <strong>Tickets:</strong> $45 in advance / $55 at the door /
+          Free for <a href="https://www.minnesotafringe.org/members">
+            Fringe with Benefits
+          </a> Members
+        </div>
+      </div>
+
+      <p>
+        <a
+          className="button"
+          href="https://www.minnesotafringe.org/BookingRetrieve.aspx?ID=274659"
+        >
+          BUY TICKETS
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <h2>About Oncoming Productions</h2>
+
+      <p>
+        Oncoming Productions is a Minneapolis-based stage company dedicated to
+        creating theater in a dark vein, focusing on movement, light, and sound.
+      </p>
+
+      <h3 className="member-heading">The Company</h3>
+
+      <ul className="member-list">
+        <li className="member-item">Mallory Dillon</li>
+        <li className="member-item">Sean Dillon</li>
+        <li className="member-item">Becky Wilkinson Hauser</li>
+        <li className="member-item">Bryce Kalal</li>
+        <li className="member-item">Emily Lindholm</li>
+        <li className="member-item">Erik Nielsen</li>
+        <li className="member-item">Erik Ostrom</li>
+        <li className="member-item">Victoria Pyan</li>
+        <li className="member-item">Rob Ward</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+
+      <p>
+        <a href="mailto:oncomingpro@gmail.com">oncomingpro@gmail.com</a>
+      </p>
+    </section>
   </Layout>
 )
 
