@@ -14,3 +14,5 @@ fields:
     maxSize: 250
   label: picture
   description: what they look like
+pages:
+- src/people/mallory-dillon.md.md
