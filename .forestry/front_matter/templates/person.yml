@@ -1,0 +1,16 @@
+---
+label: person
+hide_body: true
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: name
+  description: what we call them
+- name: picture
+  type: file
+  config:
+    maxSize: 250
+  label: picture
+  description: what they look like
