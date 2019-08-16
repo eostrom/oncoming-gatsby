@@ -1,5 +1,0 @@
----
-name: Emily Lindholm
-picture: ''
-
----
