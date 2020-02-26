@@ -1,5 +1,0 @@
----
-name: Bryce Kalal
-picture: ''
-
----
