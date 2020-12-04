@@ -76,12 +76,25 @@ body a:visited:not(.button) {
   color: hsl(47, 87%, 40%);
 }
 
+h2 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media (max-width: 20rem) {
+  h2 {
+    flex-direction: column;
+  }
+}
+
 .button {
   display: inline-block;
   background: hsl(240, 64%, 55%);
   text-decoration: none;
   padding: 0.5em 1.5em;
   border-radius: 1em;
+  font-size: 1rem;
   font-weight: bold;
   color: inherit;
 }

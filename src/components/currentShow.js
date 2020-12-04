@@ -6,7 +6,7 @@ const CurrentShow = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: {eq: "geminae-2018.jpg"}) {
+        placeholderImage: file(relativePath: {eq: "BlightChristmas_site.png"}) {
           childImageSharp {
             fluid(maxWidth: 820, traceSVG: {blackOnWhite: false}) {
               ...GatsbyImageSharpFluid_tracedSVG
@@ -24,44 +24,58 @@ const CurrentShow = () => (
         />
 
         <h2>
-          Geminae
-          <span className="subhead"> at the Twin Cities Horror Festival</span>
+          <span>Blight Christmas</span>
+          <a className="button" href="http://tinyurl.com/blightxmas">
+            DONATE
+          </a>
+          {/*<span className="subhead"> at the Twin Cities Horror Festival</span>*/}
         </h2>
 
         <p>
-          <b>
-            The 2018 MN Fringe Festival horror hit is back, new and improved!
-          </b>{' '}
-          A routine mission goes awry when astronaut Cassie Matheson sees
-          something impossible in her shuttle. At mission control, her sister
-          Helen fights to bring her home. When the unthinkable happens, they
-          learn just how unbreakable the bond between them is, with chilling
-          consequences.
+          Just because we’re all apart this holiday, that doesn’t mean we can’t
+          get scared together. Welcome to Blight Christmas: A Horror Holiday
+          Together… a spooky yet festive variety show for your ears, featuring
+          drama, prose, verse, and song from some of the finest creators in the
+          Twin Cities horror theater community and beyond.
         </p>
+
+        <p>Featuring work by:</p>
+
+        <ul>
+          <li>Amnesia Wars Productions</li>
+          <li>Big Spooky Radio Christmastime</li>
+          <li>The Champagne Drops</li>
+          <li>Eric Thompson</li>
+          <li>LandmanLand</li>
+          <li>Market Garden Theater</li>
+          <li>Oncoming Productions</li>
+          <li>Reverend Matt’s Monster Science</li>
+          <li>Sad Holiday</li>
+          <li>Special When Lit</li>
+          <li>Tom Reed</li>
+          <li>The Winding Sheet Outfit</li>
+        </ul>
+
+        <p>and produced in collaboration with Hot Chocolate Media.</p>
 
         <div className="show-info">
           <div className="show-info-item">
-            <strong>Dates:</strong> October 24th to November 3rd, 2019
-          </div>
-
-          <div className="show-info-item">
-            <strong>Place:</strong>{' '}
-            <a href="https://southerntheater.org">The Southern Theatre,</a> 1420
-            S. Washington Ave., Minneapolis, MN 55454
-          </div>
-
-          <div className="show-info-item">
-            <strong>Tickets:</strong> Festival passes available now
+            <strong>LISTEN NOW:</strong>{' '}
+            <a href="http://www.hotchocolatemedia.net/blight-christmas">
+              http://www.hotchocolatemedia.net/blight-christmas
+            </a>
           </div>
         </div>
 
         <p>
-          <a
-            className="button"
-            href="http://www.tchorrorfestival.com/lineup-and-tickets1.html"
-          >
-            BUY A PASS
+          <a className="button" href="http://tinyurl.com/blightxmas">
+            DONATE
           </a>
+        </p>
+
+        <p>
+          All donations will be shared among the contributing companies to
+          support their continued work.
         </p>
       </section>
     )}
