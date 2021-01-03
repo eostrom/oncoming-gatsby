@@ -25,7 +25,7 @@ const CurrentShow = () => (
 
         <h2>
           <span>Blight Christmas</span>
-          <a className="button" href="http://tinyurl.com/blightxmas">
+          <a className="button" href="https://paypal.me/pools/c/8vIP67G5gq">
             DONATE
           </a>
           {/*<span className="subhead"> at the Twin Cities Horror Festival</span>*/}
@@ -68,7 +68,7 @@ const CurrentShow = () => (
         </div>
 
         <p>
-          <a className="button" href="http://tinyurl.com/blightxmas">
+          <a className="button" href="https://paypal.me/pools/c/8vIP67G5gq">
             DONATE
           </a>
         </p>
