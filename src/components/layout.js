@@ -24,7 +24,7 @@ const Layout = ({children}) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <>
         <link rel="apple-touch-icon" href="icon.png" />
 
@@ -40,7 +40,7 @@ const Layout = ({children}) => (
 )
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 }
 
 export default Layout

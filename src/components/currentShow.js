@@ -15,7 +15,7 @@ const CurrentShow = () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <section>
         <Img
           fluid={data.placeholderImage.childImageSharp.fluid}

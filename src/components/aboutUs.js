@@ -2,18 +2,13 @@ import React from 'react'
 import {useStaticQuery, graphql} from 'gatsby'
 import {pluck, split, slice, compose, prop, sortBy} from 'ramda'
 
-const rotateRight = a => {
+const rotateRight = (a) => {
   const lastIndex = a.length - 1
   return [a[lastIndex], ...slice(0, lastIndex, a)]
 }
 
 const sortByLastName = sortBy(
-  compose(
-    rotateRight,
-    split(' '),
-    prop('name'),
-    prop('frontmatter')
-  )
+  compose(rotateRight, split(' '), prop('name'), prop('frontmatter'))
 )
 
 const AboutUs = () => {
@@ -46,7 +41,7 @@ const AboutUs = () => {
       <h3 className="member-heading">The Company</h3>
 
       <ul className="member-list">
-        {people.map(person => (
+        {people.map((person) => (
           <li className="member-item" key={person.id}>
             {person.frontmatter.name}
           </li>
