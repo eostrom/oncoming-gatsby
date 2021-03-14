@@ -96,8 +96,36 @@ h2 .button {
   }
 }
 
+.actions {
+  display: flex;
+  padding: 0;
+  /*grid-gap: 1rem;*/
+  /*max-width: 100%;*/
+  /*flex-direction: column;*/
+}
+
+.actions > li {
+  list-style: none;
+}
+
+.actions > li + li {
+  margin-left: 1rem;
+}
+
+@media (max-width: 30rem) {
+  .actions {
+    flex-direction: column;
+  }
+
+  .actions > li + li {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+}
+
+
 .button {
-  display: inline-block;
+  display: block;
   background: hsl(240, 64%, 55%);
   text-decoration: none;
   padding: 0.5em 1.5em;
@@ -105,6 +133,7 @@ h2 .button {
   font-size: 1rem;
   font-weight: bold;
   color: inherit;
+  text-align: center;
 }
 
 .page-nav {
