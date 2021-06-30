@@ -6241,7 +6241,7 @@ gatsby-cli@^2.16.2:
     yoga-layout-prebuilt "^1.9.6"
     yurnalist "^1.1.2"
 
-gatsby-core-utils@^1.6.0, gatsby-core-utils@^1.7.1:
+gatsby-core-utils@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.7.1.tgz#7e7e6596c228d580ed8ce4a3fc04c56f103cae3f"
   integrity sha512-hnzQCixp2C4opmSgjido/CQwSt4FL3CcmGwq6fK3PVPTT3hLPz7rvuTMQIUlR8BJjGYai6i5f6V3wfkCJ3VTgQ==
@@ -12486,9 +12486,9 @@ socket.io-client@2.3.0:
     to-array "0.1.4"
 
 socket.io-parser@~3.3.0:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/socket.io-parser/-/socket.io-parser-3.3.1.tgz#f07d9c8cb3fb92633aa93e76d98fd3a334623199"
-  integrity sha512-1QLvVAe8dTz+mKmZ07Swxt+LAo4Y1ff50rlyoEx00TQmDFVQYPfcqGvIDJLGaBdhdNCecXtyKpD+EgKGcmmbuQ==
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/socket.io-parser/-/socket.io-parser-3.3.2.tgz#ef872009d0adcf704f2fbe830191a14752ad50b6"
+  integrity sha512-FJvDBuOALxdCI9qwRrO/Rfp9yfndRtc1jSgVgV8FDraihmSP/MLGD5PEuJrNfjALvcQ+vMDM/33AWOYP/JSjDg==
   dependencies:
     component-emitter "~1.3.0"
     debug "~3.1.0"
